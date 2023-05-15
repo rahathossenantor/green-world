@@ -1,0 +1,261 @@
+* {
+  padding: 00px;
+  margin: 00px;
+  outline: 00px;
+}
+body{
+  background-color: #F3F5EA;
+}
+.container{
+  width: 80%;
+  margin: auto;
+  }
+/* Navigation part start */
+#main_div {
+  background-color: antiquewhite;
+}
+.main_nav {
+  width: 80%;
+  margin: auto;
+}
+/* Navigation logo part start */
+.logo {
+  width: 30%;
+  float: left;
+}
+.logo_image {
+  width: 15%;
+  float: left;
+}
+.logo_title {
+  width: 85%;
+  float: left;
+}
+.logo_image img {
+  width: 50px;
+}
+.logo_title h2 {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 06px;
+  color: #00AA95;
+}
+/* Navigation logo part end */
+/* Navigation menu part start */
+.menu {
+  width: 70%;
+  float: left;
+  text-align: right;
+  background-color: antiquewhite;
+}
+a {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+.menu ul {
+  display: inline-flex;
+}
+.menu ul li {
+  width: 135px;
+  height: 54px;
+  text-align: center;
+  line-height: 52px;
+  position: relative;
+}
+.menu ul li:hover {
+  background-color: #00AA95;
+  transition: 01s;
+}
+.menu ul li a:hover {
+  font-size: 26px;
+  color: antiquewhite;
+  transition: 01s;
+}
+.menu ul li a {
+  display: block;
+}
+.menu ul li a:focus {
+  color: blueviolet;
+}
+.drop {
+  visibility: hidden;
+  position: absolute;
+  top: 54px;
+  left: 00px;
+}
+.menu ul li:hover .drop {
+  visibility: visible;
+}
+.menu ul li:hover .drop ul {
+  display: block;
+  background-color: antiquewhite;
+}
+.next {
+  position: relative;
+}
+.next_menu {
+  visibility: hidden;
+  position: absolute;
+  top: 00px;
+  left: 135px;
+}
+
+.next:hover .next_menu {
+  visibility: visible;
+}
+nav{
+  width: 100%;
+  background-color: antiquewhite;
+  position: fixed;
+}
+/* Navigation menu part end */
+.help {
+  clear: both;
+}
+/* Navigation part end */
+/* About head part start */
+#about_head h4{
+  font-size: 80px;
+  padding: 100px 00px 00px 00px;
+  margin-bottom: 40px;
+}
+#about_head p{
+  width: 50%;
+  float: left;
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: justify;
+  font-size: 20px;
+  line-height: 33px;
+  margin-bottom: 40px;
+}
+#about_head .p2{
+  width: 49%;
+  margin-left: 01%;
+  float: left;
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: justify;
+  font-size: 20px;
+}
+#about_head span{
+  font-size: 25px;
+}
+/* About head part end */
+/* Footer part start */
+#footer_main{
+  background-image: url("../images/forest.webp");
+  width: 100%;
+  height: 955px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+
+}
+.footer_contant h4{
+  font-size: 70px;
+  text-align: center;
+  padding-top: 130px;
+  margin-bottom: 310px;
+}
+.f_1st{
+  width: 25%;
+  float: left;
+}
+.f_1st h5{
+  font-size: 45px;
+  color: white;
+}
+.f_2nd{
+  width: 30%;
+  float: left;
+  margin-top: 15px;
+}
+.f_3rd{
+  width: 45%;
+  float: left;
+  margin-top: 10px;
+}
+.f_2nd ul li a img{
+  width: 30px;
+}
+.f_2nd ul{
+  display: inline-flex;
+}
+.f_2nd ul li{
+  width: 50px;
+  text-align: center;
+}
+.f_3rd label{
+  font-size: 30px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+}
+.f_3rd input{
+  padding: 13px 10px;
+  border-radius: 10px;
+  border: 00px;
+}
+button{
+  padding: 13px 14px;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+  border: 00px;
+}
+.f_3rd input::placeholder{
+  font-size: 15px;
+}
+.resources{
+  width: 30%;
+  float: left;
+  margin-right: 05%;
+  margin-top: 30px;
+  color: white;
+  margin-bottom: 50px;
+}
+.soc{
+  width: 30%;
+  float: left;
+  margin-right: 05%;
+  margin-top: 30px;
+  color: white;
+  margin-bottom: 50px;
+}
+.company{
+  width: 30%;
+  float: left;
+  margin-top: 30px;
+  color: white;
+  margin-bottom: 50px;
+}
+.f_l_h{
+  font-size: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-bottom: 20px;
+}
+.f_list ul li a{
+  font-size: 15px;
+  color: white;
+}
+.f_list ul li{
+  height: 20px;
+}
+.copy_right{
+  width: 100%;
+}
+.copy_right p{
+  color: white;
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+  width: 100%;
+}
+.foot_overlay{
+  background-color: rgba(0,0,0,0.6);
+}
+/* Footer part end */
